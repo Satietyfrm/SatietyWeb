@@ -451,6 +451,12 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+  if (window.location.href.endsWith(".html")) {
+    window.location.href = window.location.href.replace(".html", "");
+  }
+</script>
+
 </body>
 
 </html>
